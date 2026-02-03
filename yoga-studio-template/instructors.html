@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenith Yoga | Instructors</title>
+    <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand d-flex align-items-center gap-2"><img src="assets/images/logo.svg" alt="Zenith Yoga Logo" width="30" height="30"> Zenith Yoga</a>
+
+            <div class="d-none d-lg-flex nav-menu">
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link">Home <i class="fas fa-chevron-down small"
+                            style="font-size: 0.7em; margin-left: 2px;"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="index.html" class="dropdown-item">Home Style 1</a>
+                        <a href="home-2.html" class="dropdown-item">Home Style 2</a>
+                    </div>
+                </div>
+                <a href="programs.html" class="nav-link">Programs</a>
+                <a href="instructors.html" class="nav-link active">Instructors</a>
+                <a href="schedule.html" class="nav-link">Schedule</a>
+                <a href="pricing.html" class="nav-link">Pricing</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="dashboard.html" class="nav-link">Dashboard</a>
+            </div>
+
+            <div class="d-flex align-items-center gap-3">
+                <button id="theme-toggle" class="theme-toggle-btn"><i class="fas fa-moon"></i></button>
+                <div class="d-none d-lg-flex gap-2">
+                    <a href="login.html" class="btn btn-outline"
+                        style="padding: 0.5rem 1.5rem; font-size: 0.9rem;">Login</a>
+                    <a href="signup.html" class="btn btn-primary"
+                        style="padding: 0.5rem 1.5rem; font-size: 0.9rem;">Sign Up</a>
+                </div>
+                <button class="navbar-toggler ms-2" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+                <div class="mobile-dropdown-container">
+            <a href="#" class="nav-link d-flex align-items-center justify-content-between mobile-dropdown-trigger">
+                Home <i class="fas fa-chevron-down small"></i>
+            </a>
+            <div class="mobile-dropdown-content d-none ps-3 bg-light rounded-3 mt-1 mb-2">
+                <a href="index.html" class="nav-link py-2 small">Home Style 1</a>
+                <a href="home-2.html" class="nav-link py-2 small">Home Style 2</a>
+            </div>
+        </div>
+        <a href="programs.html" class="nav-link">Programs</a>
+        <a href="instructors.html" class="nav-link active">Instructors</a>
+        <a href="schedule.html" class="nav-link">Schedule</a>
+        <a href="pricing.html" class="nav-link">Pricing</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+                <a href="dashboard.html" class="nav-link">Dashboard</a>
+        <div class="mt-4 pt-4 border-top">
+            <a href="login.html" class="btn btn-outline w-100 mb-2">Login</a>
+            <a href="signup.html" class="btn btn-primary w-100">Sign Up</a>
+        </div>
+    </div>
+
+    <!-- Instructor Section -->
+    <section class="section">
+        <div class="container">
+            <div class="text-center mb-5 fade-up">
+                <h1>Meet Our Guides</h1>
+                <p>Passionate teachers dedicated to your growth.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Instructor 1 -->
+                <div class="col-md-6 col-lg-3 fade-up">
+                    <div class="glass-card h-100 p-0 overflow-hidden text-center">
+                        <img src="https://i.pravatar.cc/400?u=Sarah" alt="Sarah J." class="w-100"
+                            style="height: 300px; object-fit: cover;">
+                        <div class="p-4">
+                            <h4 class="mb-1">Sarah Jenkins</h4>
+                            <p class="small text-primary mb-3">Vinyasa & Yin</p>
+                            <p class="small text-muted mb-4">With over 10 years of experience, Sarah brings a gentle yet
+                                powerful approach to her classes.</p>
+                            <div class="d-flex justify-content-center gap-3">
+                                <a href="#" class="text-primary"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="text-primary"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Instructor 2 -->
+                <div class="col-md-6 col-lg-3 fade-up" style="transition-delay: 0.1s;">
+                    <div class="glass-card h-100 p-0 overflow-hidden text-center">
+                        <img src="https://i.pravatar.cc/400?u=Mike" alt="Mike T." class="w-100"
+                            style="height: 300px; object-fit: cover;">
+                        <div class="p-4">
+                            <h4 class="mb-1">Mike Thompson</h4>
+                            <p class="small text-primary mb-3">Power & Ashtanga</p>
+                            <p class="small text-muted mb-4">Mike focuses on strength tailored alignment, challenging
+                                students to find their edge.</p>
+                            <div class="d-flex justify-content-center gap-3">
+                                <a href="#" class="text-primary"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="text-primary"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Instructor 3 -->
+                <div class="col-md-6 col-lg-3 fade-up" style="transition-delay: 0.2s;">
+                    <div class="glass-card h-100 p-0 overflow-hidden text-center">
+                        <img src="https://i.pravatar.cc/400?u=Emma" alt="Emma W." class="w-100"
+                            style="height: 300px; object-fit: cover;">
+                        <div class="p-4">
+                            <h4 class="mb-1">Emma Wilson</h4>
+                            <p class="small text-primary mb-3">Hatha & Meditation</p>
+                            <p class="small text-muted mb-4">Emma guides students inward with soothing voice and mindful
+                                sequences.</p>
+                            <div class="d-flex justify-content-center gap-3">
+                                <a href="#" class="text-primary"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="text-primary"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Instructor 4 -->
+                <div class="col-md-6 col-lg-3 fade-up" style="transition-delay: 0.3s;">
+                    <div class="glass-card h-100 p-0 overflow-hidden text-center">
+                        <img src="https://i.pravatar.cc/400?u=David" alt="David L." class="w-100"
+                            style="height: 300px; object-fit: cover;">
+                        <div class="p-4">
+                            <h4 class="mb-1">David Lee</h4>
+                            <p class="small text-primary mb-3">Breathwork</p>
+                            <p class="small text-muted mb-4">Specializing in pranayama, David helps disconnect from
+                                stress and reconnect to self.</p>
+                            <div class="d-flex justify-content-center gap-3">
+                                <a href="#" class="text-primary"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="text-primary"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <h4 class="mb-4 d-flex align-items-center gap-2"><img src="assets/images/logo.svg" alt="Zenith Yoga Logo" width="30" height="30"> Zenith Yoga</h4>
+                    <p>A sanctuary for your mind, body, and soul. Join us to experience the transformative power of
+                        yoga.</p>
+                    <div class="social-links mt-4">
+                        <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="classes.html">Classes</a></li>
+                        <li><a href="instructors.html">Instructors</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h4>Programs</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="programs.html">Beginner Course</a></li>
+                        <li><a href="programs.html">Teacher Training</a></li>
+                        <li><a href="programs.html">Retreats</a></li>
+                        <li><a href="programs.html">Workshops</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for updates, tips, and exclusive offers.</p>
+                    <form class="mt-3">
+                        <div class="d-flex gap-2">
+                            <input type="email" class="form-control mb-0" placeholder="Your Email">
+                            <button type="button" class="btn btn-primary">Join</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="border-top border-secondary mt-5 pt-4 text-center">
+                <p class="small mb-0">&copy; 2026 Zenith Yoga. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/theme-toggle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
+
+
+

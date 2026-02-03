@@ -1,0 +1,21 @@
+/* 
+* Yoga Studio Template - Dark Mode Variables
+*/
+
+[data-theme="dark"] {
+    --color-primary: #8FBFB3;
+    /* Using Accent Glow as Primary for visibility on dark */
+    --color-accent: #5D8C83;
+    /* Slightly darker accent for contrast if needed, or keep same */
+
+    --color-background: #0F1720;
+    --color-surface: #16212C;
+
+    --color-text: #F3F4F6;
+    --color-subtext: #9CA3AF;
+    /* Tailwind Gray-400 */
+
+    --color-border: rgba(255, 255, 255, 0.1);
+
+    --shadow-glass: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}

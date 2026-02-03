@@ -1,0 +1,23 @@
+/* 
+* Yoga Studio Template - Animations
+* Most animations are handled by GSAP (main.js).
+* Use this file for pure CSS keyframes if needed.
+*/
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(-10px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.animate-float {
+    animation: float 6s ease-in-out infinite;
+}

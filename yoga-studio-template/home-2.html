@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Premium Yoga Studio offering online and offline classes for mind and body wellness.">
+    <title>Zenith Yoga | Home</title>
+    <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand d-flex align-items-center gap-2"><img src="assets/images/logo.svg"
+                    alt="Zenith Yoga Logo" width="30" height="30"> Zenith Yoga</a>
+
+            <!-- Desktop Menu -->
+            <div class="d-none d-lg-flex nav-menu">
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link active">Home <i class="fas fa-chevron-down small"
+                            style="font-size: 0.7em; margin-left: 2px;"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="index.html" class="dropdown-item">Home Style 1</a>
+                        <a href="home-2.html" class="dropdown-item">Home Style 2</a>
+                    </div>
+                </div>
+                <a href="programs.html" class="nav-link">Programs</a>
+                <a href="instructors.html" class="nav-link">Instructors</a>
+                <a href="schedule.html" class="nav-link">Schedule</a>
+                <a href="pricing.html" class="nav-link">Pricing</a>
+                <a href="blog.html" class="nav-link">Blog</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="dashboard.html" class="nav-link">Dashboard</a>
+            </div>
+
+            <div class="d-flex align-items-center gap-3">
+                <button id="theme-toggle" class="theme-toggle-btn"><i class="fas fa-moon"></i></button>
+                <div class="d-none d-lg-flex gap-2">
+                    <a href="login.html" class="btn btn-outline"
+                        style="padding: 0.5rem 1.5rem; font-size: 0.9rem;">Login</a>
+                    <a href="signup.html" class="btn btn-primary"
+                        style="padding: 0.5rem 1.5rem; font-size: 0.9rem;">Sign Up</a>
+                </div>
+                <button class="navbar-toggler ms-2" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+                <div class="mobile-dropdown-container">
+            <a href="#" class="nav-link d-flex align-items-center justify-content-between mobile-dropdown-trigger">
+                Home <i class="fas fa-chevron-down small"></i>
+            </a>
+            <div class="mobile-dropdown-content d-none ps-3 bg-light rounded-3 mt-1 mb-2">
+                <a href="index.html" class="nav-link py-2 small">Home Style 1</a>
+                <a href="home-2.html" class="nav-link py-2 small">Home Style 2</a>
+            </div>
+        </div>
+        <a href="programs.html" class="nav-link">Programs</a>
+        <a href="instructors.html" class="nav-link">Instructors</a>
+        <a href="schedule.html" class="nav-link">Schedule</a>
+        <a href="pricing.html" class="nav-link">Pricing</a>
+        <a href="blog.html" class="nav-link">Blog</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+        <a href="dashboard.html" class="nav-link">Dashboard</a>
+        <div class="mt-4 pt-4 border-top">
+            <a href="login.html" class="btn btn-outline w-100 mb-2">Login</a>
+            <a href="signup.html" class="btn btn-primary w-100">Sign Up</a>
+        </div>
+    </div>
+
+    <!-- Hero Section Style 2 -->
+    <section
+        class="section hero-section position-relative d-flex align-items-center justify-content-center text-center p-0 overflow-hidden"
+        style="height: 90vh; margin-top: -74px;">
+        <img src="assets/images/studio.jpg" alt="Yoga Studio" class="position-absolute top-0 start-0 w-100 h-100"
+            style="object-fit: cover; z-index: -1;"
+            onerror="this.src='https://placehold.co/1920x1080?text=Peaceful+Studio'">
+        <div class="position-absolute top-0 start-0 w-100 h-100 bg-primary opacity-25"></div>
+        <div class="position-absolute top-0 start-0 w-100 h-100"
+            style="background: linear-gradient(to bottom, rgba(46, 79, 79, 0.3), rgba(46, 79, 79, 0.6));"></div>
+
+        <div class="container position-relative fade-up text-white">
+            <span class="d-inline-block py-1 px-3 rounded-pill border border-white text-white mb-3"
+                style="font-size: 0.9rem; font-weight: 500; backdrop-filter: blur(5px);">Find Your Flow</span>
+            <h1 class="display-3 fw-bold mb-4 text-white">Breathe. Move. Connect.</h1>
+            <p class="lead mb-5 mx-auto text-white-50"
+                style="max-width: 600px; color: rgba(255,255,255,0.9) !important;">
+                Experience the transformative power of yoga in our sanctuary of calm. Join us for a journey of
+                self-discovery.
+            </p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="schedule.html" class="btn btn-primary border-0">View Schedule</a>
+                <a href="contact.html"
+                    class="btn btn-outline border-white text-white hover-text-primary bg-transparent">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features / Benefits -->
+    <section class="section">
+        <div class="container">
+            <div class="row g-4 pt-5 mt-5">
+                <div class="col-md-4 fade-up">
+                    <div class="glass-card h-100 text-center">
+                        <div class="icon-box mb-4 text-primary fs-2"><i class="fas fa-video"></i></div>
+                        <h4>Online Classes</h4>
+                        <p>Practice from anywhere with our library of HD video classes.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-up" style="transition-delay: 0.1s;">
+                    <div class="glass-card h-100 text-center">
+                        <div class="icon-box mb-4 text-primary fs-2"><i class="fas fa-heart"></i></div>
+                        <h4>Community</h4>
+                        <p>Join a supportive community of like-minded individuals.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 fade-up" style="transition-delay: 0.2s;">
+                    <div class="glass-card h-100 text-center">
+                        <div class="icon-box mb-4 text-primary fs-2"><i class="fas fa-leaf"></i></div>
+                        <h4>Eco-Friendly</h4>
+                        <p>Our studio is built with sustainable materials and practices.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About / Mission Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 fade-up">
+                    <div class="image-wrapper rounded-4 overflow-hidden shadow-lg position-relative"
+                        style="height: 500px;">
+                        <img src="https://images.unsplash.com/photo-1599447421416-3414500d18a5?auto=format&fit=crop&w=800&q=80"
+                            alt="Yoga Mission" class="w-100 h-100" style="object-fit: cover;">
+                        <div
+                            class="position-absolute bottom-0 start-0 w-100 p-4 bg-gradient-to-t from-black to-transparent">
+                            <h4 class="text-white mb-0">Rooted in Tradition</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-5 mt-lg-0 fade-up" style="transition-delay: 0.2s;">
+                    <span class="text-primary fw-bold text-uppercase small ls-1">Our Mission</span>
+                    <h2 class="display-5 mb-4 mt-2">More Than Just a Studio</h2>
+                    <p class="lead text-muted mb-4">At Zenith, we believe yoga is a path to self-discovery. Our mission
+                        is to create a space where you can explore your potential, both on and off the mat.</p>
+                    <p class="text-muted mb-4">Founded in 2010, we have grown from a small community center to a hub of
+                        wellness, offering over 50 classes a week ranging from Hatha to Aerial Yoga.</p>
+                    <div class="d-flex gap-4 mt-4">
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="fas fa-check-circle text-primary"></i>
+                            <span>Certified Instructors</span>
+                        </div>
+                        <div class="d-flex align-items-center gap-2">
+                            <i class="fas fa-check-circle text-primary"></i>
+                            <span>Inclusive Community</span>
+                        </div>
+                    </div>
+                    <a href="about.html" class="btn btn-outline mt-5">Read Our Story</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructors Section -->
+    <section class="section">
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-end mb-5 fade-up">
+                <div class="section-title text-start m-0">
+                    <h2>Meet Your Guides</h2>
+                    <p class="m-0">World-class teachers dedicated to your growth.</p>
+                </div>
+                <a href="instructors.html" class="btn btn-outline">All Instructors</a>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-3 fade-up">
+                    <div class="glass-card p-0 overflow-hidden text-center h-100 group">
+                        <div class="position-relative overflow-hidden">
+                            <img src="https://i.pravatar.cc/300?u=ElenaRo" class="w-100"
+                                style="height: 300px; object-fit: cover;" alt="Instructor">
+                            <div
+                                class="position-absolute top-0 start-0 w-100 h-100 bg-primary opacity-0 d-flex align-items-center justify-content-center transition-all duration-300 hover:opacity-75">
+                                <div class="d-flex gap-2">
+                                    <a href="#" class="btn btn-sm btn-light rounded-circle"><i
+                                            class="fab fa-instagram"></i></a>
+                                    <a href="#" class="btn btn-sm btn-light rounded-circle"><i
+                                            class="fab fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-3">
+                            <h5 class="mb-1">Elena Ro</h5>
+                            <p class="small text-muted mb-0">Vinyasa Expert</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 fade-up" style="transition-delay: 0.1s;">
+                    <div class="glass-card p-0 overflow-hidden text-center h-100">
+                        <div class="position-relative overflow-hidden">
+                            <img src="https://i.pravatar.cc/300?u=DavidChen" class="w-100"
+                                style="height: 300px; object-fit: cover;" alt="Instructor">
+                        </div>
+                        <div class="p-3">
+                            <h5 class="mb-1">David Chen</h5>
+                            <p class="small text-muted mb-0">Hatha & Meditation</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 fade-up" style="transition-delay: 0.2s;">
+                    <div class="glass-card p-0 overflow-hidden text-center h-100">
+                        <div class="position-relative overflow-hidden">
+                            <img src="https://i.pravatar.cc/300?u=SarahJay" class="w-100"
+                                style="height: 300px; object-fit: cover;" alt="Instructor">
+                        </div>
+                        <div class="p-3">
+                            <h5 class="mb-1">Sarah Jay</h5>
+                            <p class="small text-muted mb-0">Ashtanga Lead</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 fade-up" style="transition-delay: 0.3s;">
+                    <div class="glass-card p-0 overflow-hidden text-center h-100">
+                        <div class="position-relative overflow-hidden">
+                            <img src="https://i.pravatar.cc/300?u=MikeRoss" class="w-100"
+                                style="height: 300px; object-fit: cover;" alt="Instructor">
+                        </div>
+                        <div class="p-3">
+                            <h5 class="mb-1">Mike Ross</h5>
+                            <p class="small text-muted mb-0">Power Yoga</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Upcoming Events -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="section-title fade-up">
+                <h2>Upcoming Events</h2>
+                <p>Workshops, retreats, and special classes.</p>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <!-- Event 1 -->
+                    <div class="glass-card mb-4 fade-up d-flex flex-column flex-md-row gap-4 align-items-center p-4">
+                        <div class="text-center p-3 bg-primary text-white rounded-3" style="min-width: 100px;">
+                            <span class="h2 d-block fw-bold mb-0">15</span>
+                            <span class="text-uppercase small">Mar</span>
+                        </div>
+                        <div class="flex-grow-1 text-center text-md-start">
+                            <h4>Spring Equinox Retreat</h4>
+                            <p class="mb-0 text-muted">Join us for a full-day retreat focused on renewal and growth.
+                                Includes lunch and 3 classes.</p>
+                        </div>
+                        <a href="#" class="btn btn-outline text-nowrap">Book Now</a>
+                    </div>
+
+                    <!-- Event 2 -->
+                    <div class="glass-card mb-4 fade-up d-flex flex-column flex-md-row gap-4 align-items-center p-4"
+                        style="transition-delay: 0.1s;">
+                        <div class="text-center p-3 bg-primary text-white rounded-3" style="min-width: 100px;">
+                            <span class="h2 d-block fw-bold mb-0">22</span>
+                            <span class="text-uppercase small">Apr</span>
+                        </div>
+                        <div class="flex-grow-1 text-center text-md-start">
+                            <h4>Inversion Workshop</h4>
+                            <p class="mb-0 text-muted">Master your handstands and headstands in this 3-hour intensive
+                                workshop.</p>
+                        </div>
+                        <a href="#" class="btn btn-outline text-nowrap">Book Now</a>
+                    </div>
+
+                    <!-- Event 3 -->
+                    <div class="glass-card fade-up d-flex flex-column flex-md-row gap-4 align-items-center p-4"
+                        style="transition-delay: 0.2s;">
+                        <div class="text-center p-3 bg-primary text-white rounded-3" style="min-width: 100px;">
+                            <span class="h2 d-block fw-bold mb-0">05</span>
+                            <span class="text-uppercase small">Jun</span>
+                        </div>
+                        <div class="flex-grow-1 text-center text-md-start">
+                            <h4>Sound Bath Meditation</h4>
+                            <p class="mb-0 text-muted">A deeply restorative evening of sound healing and guided
+                                meditation.</p>
+                        </div>
+                        <a href="#" class="btn btn-outline text-nowrap">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 fade-up">
+                    <div class="section-title">
+                        <h2>Frequently Asked Questions</h2>
+                        <p>Common questions about our studio.</p>
+                    </div>
+
+                    <div class="d-grid gap-3">
+                        <!-- FAQ 1 -->
+                        <div class="glass-card p-0 overflow-hidden">
+                            <button
+                                class="faq-trigger w-100 p-4 d-flex justify-content-between align-items-center bg-transparent border-0"
+                                type="button">
+                                <h5 class="mb-0 text-primary">Do I need to bring my own mat?</h5>
+                                <i class="fas fa-chevron-down small"></i>
+                            </button>
+                            <div class="faq-content">
+                                <div class="p-4 pt-0 text-muted">
+                                    We have high-quality mats available for rent for $2, but we encourage you to bring
+                                    your own for hygiene reasons.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FAQ 2 -->
+                        <div class="glass-card p-0 overflow-hidden">
+                            <button
+                                class="faq-trigger w-100 p-4 d-flex justify-content-between align-items-center bg-transparent border-0"
+                                type="button">
+                                <h5 class="mb-0 text-primary">Is this suitable for beginners?</h5>
+                                <i class="fas fa-chevron-down small"></i>
+                            </button>
+                            <div class="faq-content">
+                                <div class="p-4 pt-0 text-muted">
+                                    Absolutely! We have specific "Foundations" classes designed exactly for those new to
+                                    yoga.
+                                </div>
+                            </div>
+                        </div>
+                        <!-- FAQ 3 -->
+                        <div class="glass-card p-0 overflow-hidden">
+                            <button
+                                class="faq-trigger w-100 p-4 d-flex justify-content-between align-items-center bg-transparent border-0"
+                                type="button">
+                                <h5 class="mb-0 text-primary">What is your cancellation policy?</h5>
+                                <i class="fas fa-chevron-down small"></i>
+                            </button>
+                            <div class="faq-content">
+                                <div class="p-4 pt-0 text-muted">
+                                    Please cancel at least 12 hours before class to avoid a late cancellation fee.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <h4 class="mb-4 d-flex align-items-center gap-2"><img src="assets/images/logo.svg"
+                            alt="Zenith Yoga Logo" width="30" height="30"> Zenith Yoga</h4>
+                    <p>A sanctuary for your mind, body, and soul. Join us to experience the transformative power of
+                        yoga.</p>
+                    <div class="social-links mt-4">
+                        <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="classes.html">Classes</a></li>
+                        <li><a href="instructors.html">Instructors</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h4>Programs</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="programs.html">Beginner Course</a></li>
+                        <li><a href="programs.html">Teacher Training</a></li>
+                        <li><a href="programs.html">Retreats</a></li>
+                        <li><a href="programs.html">Workshops</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for updates, tips, and exclusive offers.</p>
+                    <form class="mt-3">
+                        <div class="d-flex gap-2">
+                            <input type="email" class="form-control mb-0" placeholder="Your Email">
+                            <button type="button" class="btn btn-primary">Join</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="border-top border-secondary mt-5 pt-4 text-center">
+                <p class="small mb-0">&copy; 2026 Zenith Yoga. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/theme-toggle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

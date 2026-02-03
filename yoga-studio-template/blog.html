@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zenith Yoga | Blog</title>
+    <link rel="icon" type="image/svg+xml" href="assets/images/logo.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/dark.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="index.html" class="navbar-brand d-flex align-items-center gap-2"><img src="assets/images/logo.svg" alt="Zenith Yoga Logo" width="30" height="30"> Zenith Yoga</a>
+            <div class="d-none d-lg-flex nav-menu">
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link">Home <i class="fas fa-chevron-down small"
+                            style="font-size: 0.7em; margin-left: 2px;"></i></a>
+                    <div class="dropdown-menu">
+                        <a href="index.html" class="dropdown-item">Home Style 1</a>
+                        <a href="home-2.html" class="dropdown-item">Home Style 2</a>
+                    </div>
+                </div>
+                <a href="programs.html" class="nav-link">Programs</a>
+                <a href="instructors.html" class="nav-link">Instructors</a>
+                <a href="schedule.html" class="nav-link">Schedule</a>
+                <a href="pricing.html" class="nav-link">Pricing</a>
+                <a href="blog.html" class="nav-link active">Blog</a>
+                <a href="contact.html" class="nav-link">Contact</a>
+                <a href="dashboard.html" class="nav-link">Dashboard</a>
+            </div>
+            <div class="d-flex align-items-center gap-3">
+                <button id="theme-toggle" class="theme-toggle-btn"><i class="fas fa-moon"></i></button>
+                <div class="d-none d-lg-flex gap-2">
+                    <a href="login.html" class="btn btn-outline"
+                        style="padding: 0.5rem 1.5rem; font-size: 0.9rem;">Login</a>
+                    <a href="signup.html" class="btn btn-primary"
+                        style="padding: 0.5rem 1.5rem; font-size: 0.9rem;">Sign Up</a>
+                </div>
+                <button class="navbar-toggler ms-2" aria-label="Toggle navigation">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+                <div class="mobile-dropdown-container">
+            <a href="#" class="nav-link d-flex align-items-center justify-content-between mobile-dropdown-trigger">
+                Home <i class="fas fa-chevron-down small"></i>
+            </a>
+            <div class="mobile-dropdown-content d-none ps-3 bg-light rounded-3 mt-1 mb-2">
+                <a href="index.html" class="nav-link py-2 small">Home Style 1</a>
+                <a href="home-2.html" class="nav-link py-2 small">Home Style 2</a>
+            </div>
+        </div>
+        <a href="programs.html" class="nav-link">Programs</a>
+        <a href="instructors.html" class="nav-link">Instructors</a>
+        <a href="schedule.html" class="nav-link">Schedule</a>
+        <a href="pricing.html" class="nav-link">Pricing</a>
+        <a href="blog.html" class="nav-link active">Blog</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+                <a href="dashboard.html" class="nav-link">Dashboard</a>
+        <div class="mt-4 pt-4 border-top">
+            <a href="login.html" class="btn btn-outline w-100 mb-2">Login</a>
+            <a href="signup.html" class="btn btn-primary w-100">Sign Up</a>
+        </div>
+    </div>
+
+    <!-- Blog Header -->
+    <section class="section pb-0">
+        <div class="container text-center mb-5 fade-up">
+            <h1>Our Stories</h1>
+            <p>Insights, tutorials, and inspiration for your yoga journey.</p>
+        </div>
+    </section>
+
+    <!-- Blog Grid -->
+    <section class="section pt-0">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Blog Card 1 -->
+                <div class="col-md-4 fade-up">
+                    <div class="glass-card p-0 overflow-hidden h-100">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=800&q=80"
+                                alt="Morning Routine" class="w-100" style="height: 250px; object-fit: cover;">
+                            <span
+                                class="position-absolute top-0 start-0 m-3 badge bg-primary text-white rounded-pill px-3 py-1">Wellness</span>
+                        </div>
+                        <div class="p-4">
+                            <p class="small text-muted mb-2">February 1, 2026</p>
+                            <h4 class="mb-3">Mastering the Morning Yoga Routine</h4>
+                            <p class="small text-muted">Discover how a consistent 15-minute morning flow can transform
+                                your entire day...</p>
+                            <a href="blog-details-1.html" class="btn btn-outline small mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Card 2 -->
+                <div class="col-md-4 fade-up" style="transition-delay: 0.1s;">
+                    <div class="glass-card p-0 overflow-hidden h-100">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1518609878373-06d740f60d8b?auto=format&fit=crop&w=800&q=80"
+                                alt="Mindfulness" class="w-100" style="height: 250px; object-fit: cover;">
+                            <span
+                                class="position-absolute top-0 start-0 m-3 badge bg-primary text-white rounded-pill px-3 py-1">Mindfulness</span>
+                        </div>
+                        <div class="p-4">
+                            <p class="small text-muted mb-2">January 28, 2026</p>
+                            <h4 class="mb-3">The Science of Deep Breathing</h4>
+                            <p class="small text-muted">Explore how Pranayama techniques affect your nervous system and
+                                reduce stress...</p>
+                            <a href="blog-details-2.html" class="btn btn-outline small mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Card 3 -->
+                <div class="col-md-4 fade-up" style="transition-delay: 0.2s;">
+                    <div class="glass-card p-0 overflow-hidden h-100">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1447452001602-7090c7ab2db3?auto=format&fit=crop&w=800&q=80"
+                                alt="Meditation" class="w-100" style="height: 250px; object-fit: cover;">
+                            <span
+                                class="position-absolute top-0 start-0 m-3 badge bg-primary text-white rounded-pill px-3 py-1">Meditation</span>
+                        </div>
+                        <div class="p-4">
+                            <p class="small text-muted mb-2">January 25, 2026</p>
+                            <h4 class="mb-3">Finding Inner Peace Amidst Chaos</h4>
+                            <p class="small text-muted">Practical tips for maintaining a centered mind during busy work
+                                schedules...</p>
+                            <a href="blog-details-3.html" class="btn btn-outline small mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Card 4 -->
+                <div class="col-md-4 fade-up">
+                    <div class="glass-card p-0 overflow-hidden h-100">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?auto=format&fit=crop&w=800&q=80"
+                                alt="Nutrition" class="w-100" style="height: 250px; object-fit: cover;">
+                            <span
+                                class="position-absolute top-0 start-0 m-3 badge bg-primary text-white rounded-pill px-3 py-1">Nutrition</span>
+                        </div>
+                        <div class="p-4">
+                            <p class="small text-muted mb-2">January 22, 2026</p>
+                            <h4 class="mb-3">Yoga and the Power of Clean Eating</h4>
+                            <p class="small text-muted">How your diet complements your yoga practice and boosts your
+                                energy levels...</p>
+                            <a href="blog-details-4.html" class="btn btn-outline small mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Card 5 -->
+                <div class="col-md-4 fade-up" style="transition-delay: 0.1s;">
+                    <div class="glass-card p-0 overflow-hidden h-100">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1518310383802-640c2de311b2?auto=format&fit=crop&w=800&q=80"
+                                alt="Beginner Tips" class="w-100" style="height: 250px; object-fit: cover;">
+                            <span
+                                class="position-absolute top-0 start-0 m-3 badge bg-primary text-white rounded-pill px-3 py-1">Foundations</span>
+                        </div>
+                        <div class="p-4">
+                            <p class="small text-muted mb-2">January 19, 2026</p>
+                            <h4 class="mb-3">5 Essential Poses for Every Beginner</h4>
+                            <p class="small text-muted">Start your journey with these fundamental asanas explained
+                                step-by-step...</p>
+                            <a href="blog-details-5.html" class="btn btn-outline small mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Blog Card 6 -->
+                <div class="col-md-4 fade-up" style="transition-delay: 0.2s;">
+                    <div class="glass-card p-0 overflow-hidden h-100">
+                        <div class="position-relative">
+                            <img src="https://images.unsplash.com/photo-1599447421416-3414500d18a5?auto=format&fit=crop&w=800&q=80"
+                                alt="Teacher Interview" class="w-100" style="height: 250px; object-fit: cover;">
+                            <span
+                                class="position-absolute top-0 start-0 m-3 badge bg-primary text-white rounded-pill px-3 py-1">Community</span>
+                        </div>
+                        <div class="p-4">
+                            <p class="small text-muted mb-2">January 15, 2026</p>
+                            <h4 class="mb-3">Journey to Teaching: An Instructor's Story</h4>
+                            <p class="small text-muted">We interview our lead trainer Sarah on her 10-year journey into
+                                yoga teaching...</p>
+                            <a href="blog-details-6.html" class="btn btn-outline small mt-3">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4">
+                    <h4 class="mb-4 d-flex align-items-center gap-2"><img src="assets/images/logo.svg" alt="Zenith Yoga Logo" width="30" height="30"> Zenith Yoga</h4>
+                    <p>A sanctuary for your mind, body, and soul. Join us to experience the transformative power of
+                        yoga.</p>
+                    <div class="social-links mt-4">
+                        <a href="#" class="social-icon instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon youtube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="classes.html">Classes</a></li>
+                        <li><a href="instructors.html">Instructors</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2">
+                    <h4>Programs</h4>
+                    <ul class="list-unstyled">
+                        <li><a href="programs.html">Beginner Course</a></li>
+                        <li><a href="programs.html">Teacher Training</a></li>
+                        <li><a href="programs.html">Retreats</a></li>
+                        <li><a href="programs.html">Workshops</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h4>Newsletter</h4>
+                    <p>Subscribe for updates, tips, and exclusive offers.</p>
+                    <form class="mt-3">
+                        <div class="d-flex gap-2">
+                            <input type="email" class="form-control mb-0" placeholder="Your Email">
+                            <button type="button" class="btn btn-primary">Join</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="border-top border-secondary mt-5 pt-4 text-center">
+                <p class="small mb-0">&copy; 2026 Zenith Yoga. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/theme-toggle.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
+
+
+
