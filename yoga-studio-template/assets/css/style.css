@@ -877,7 +877,9 @@ footer .social-links {
 /* Visibility */
 .invisible {
     visibility: hidden !important;
-}/* FAQ Accordion */
+}
+
+/* FAQ Accordion */
 .faq-trigger {
     cursor: pointer;
     font-family: var(--font-heading);
@@ -890,23 +892,66 @@ footer .social-links {
     text-align: left;
     width: 100%;
 }
+
 .faq-trigger:hover {
     background-color: rgba(46, 79, 79, 0.05) !important;
 }
+
 [data-theme='dark'] .faq-trigger {
     color: var(--color-accent);
 }
+
 [data-theme='dark'] .faq-trigger:hover {
     background-color: rgba(255, 255, 255, 0.05) !important;
 }
+
 .faq-trigger i {
     transition: transform var(--transition-fast);
 }
+
 .faq-trigger.active i {
     transform: rotate(180deg);
 }
+
 .faq-content {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.4s ease-out;
+}
+
+/* Theme Toggle Button */
+.theme-toggle-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid var(--color-border);
+    background: transparent;
+    color: var(--color-text);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.theme-toggle-btn:hover {
+    background-color: var(--color-primary);
+    color: white;
+    transform: rotate(15deg) scale(1.05);
+    border-color: var(--color-primary);
+    box-shadow: 0 0 15px rgba(46, 79, 79, 0.3);
+}
+
+[data-theme="dark"] .theme-toggle-btn {
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+[data-theme="dark"] .theme-toggle-btn:hover {
+    background-color: var(--color-accent);
+    color: var(--color-background);
+    border-color: var(--color-accent);
+    box-shadow: 0 0 15px rgba(143, 191, 179, 0.3);
 }
